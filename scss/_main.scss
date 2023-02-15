@@ -1,0 +1,14 @@
+@use 'variables.scss' as v;
+@use 'fonts.scss';
+
+.card {
+  max-width: 1440px;
+  margin: 0 auto;
+
+  &__title {
+    max-width: 753px;
+    font-family: 'Nekst';
+    font-size: v.$f-heading;
+  }
+  
+}

@@ -9,14 +9,41 @@
   <body>
     <div id="app">
       <main>
-        <div class="card">
+        <section class="card">
           <h1 class="card__title">
             Рассчитайте стоимость автомобиля в лизинг
           </h1>
-          <div class="">
-
+          <div class="card__properties properties">
+            <div class="properties__inner">
+              <p class="properties__inner-text">Стоимость автомобиля</p>
+              <input class="properties__inner-input" type="text" name="cost">
+              <input class="properties__inner-range" type="range">
+            </div>
+            <div class="properties__inner">
+              <p class="properties__inner-text">Первоначальный взнос</p>
+              <input class="properties__inner-input" type="text" name="cost">
+              <input class="properties__inner-range" type="range">
+            </div>
+            <div class="properties__inner">
+              <p class="properties__inner-text">Срок лизинга</p>
+              <input class="properties__inner-input" type="text" name="cost">
+              <input class="properties__inner-range" type="range">
+            </div>
           </div>
-        </div>
+          <div class="card__info info">
+            <div class="info__inner">
+              <p class="info__inner-text">Сумма договора лизинга</p>
+              <span class="info__inner-cost">4 467 313 ₽</span>
+            </div>
+            <div class="info__inner">
+              <p class="info__inner-text">Ежемесячный платеж от</p>
+              <span class="info__inner-cost">114 455 ₽</span>
+            </div>
+            <button>
+              Оставить заявку
+            </button>
+          </div>
+        </section>
       </main>
     </div>
     <script type="module" src="/main.js"></script>
