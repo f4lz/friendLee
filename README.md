@@ -12,10 +12,10 @@ pnpm run dev
 
 ### Building the App
 ```
-npm run build
+pnpm run build
 ```
 
 ### Testing the App Locally
 ```
-npm run preview
+pnpm run preview
 ```
